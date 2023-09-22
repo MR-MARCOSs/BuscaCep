@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $cepForMaps = str_replace("-", "", $cep); 
             echo "<p><a href='https://www.google.com/maps?q=$cepForMaps' target='_blank'>Ver no Google Maps</a></p>";
         } else {
-            echo "<p>CEP não encontrado.</p>";
+            echo "<p>CEP não encontrado</p>";
         }
     } else {
         echo "<p>CEP inválido. Certifique-se de que o CEP possui 8 dígitos.</p>";
