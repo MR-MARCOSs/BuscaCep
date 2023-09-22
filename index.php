@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta de CEP</title>
+    <title>BUSCA CEP</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,13 +35,13 @@
 </head>
 <body>
     <div class="container">
-        <h2>Consulta de CEP</h2>
+        <h2>BUSCA CEP</h2>
+
         <form method="post" id="cepForm">
             <input type="text" name="cep" id="cepInput" placeholder="Digite o CEP">
             <button type="button" onclick="buscarEndereco()">Buscar</button>
         </form>
         <div id="endereco">
-            <!-- O endereço será exibido aqui -->
         </div>
     </div>
 
